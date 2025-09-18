@@ -2,28 +2,22 @@
 
 This repository contains Arduino implementations of **bioinspired robotic behaviors** inspired by Braitenberg vehicles.  
 The project demonstrates how simple sensor-motor couplings generate lifelike behaviors.
+  [Demo Video](https://youtu.be/zCdSMHul44c)
 
 ## 📖 Behaviors Explained + video
 - **Shy Robot** – Moves forward, slows down when objects are closer than 70 cm, and stops before 30 cm.  
-  [Demo Video – Shy Robot](#)
 
 - **Explorer Robot** – Moves forward, stops when detecting obstacles closer than 30 cm, and turns on its axis before continuing.  
-  [Demo Video – Explorer Robot](#)
-
+  
 - **Offended Robot** – Turns away from objects at 30 cm and refuses to continue exploring. Once offended, it remains in place.  
-  [Demo Video – Offended Robot](#)
-
+ 
 - **Aggressive Robot** – Moves calmly until detecting an object at 70 cm, then accelerates abruptly for 2 seconds before stopping.  
-  [Demo Video – Aggressive Robot](#)
 
 - **Light-Follower (Curious) Robot** – Uses photoresistors to follow light sources relative to a calibrated baseline, while still avoiding obstacles.  
-  [Demo Video – Light-Follower Robot](#)
 
 - **Adolescent Robot (3 States)** – Cycles between explorer, offended, and aggressive every 20–30 seconds. LEDs indicate the state.  
-  [Demo Video – Adolescent Robot](#)
 
 - **Robotic Eye** – Built with a 3D-printed structure and two servos for eyelid and eyeball motion, with smooth sweeper control.  
-  [Demo Video – Robotic Eye](#)
 
 ## 🛠️ Hardware Used
 - Arduino UNO / MEGA  

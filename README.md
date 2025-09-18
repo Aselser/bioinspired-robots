@@ -1,7 +1,8 @@
-# Bioinspired Robots (Arduino)
+# Bioinspired Robots
 
-This repository contains Arduino implementations of **bioinspired robotic behaviors** inspired by Braitenberg vehicles.  
+This repository contains Arduino implementations of **bioinspired robotic behaviors** inspired by Braitenberg vehicles, for a bioinspired robotics course on 2023.
 The project demonstrates how simple sensor-motor couplings generate lifelike behaviors.
+
   [Demo Video](https://youtu.be/zCdSMHul44c)
 
 ## 📖 Behaviors Explained + video
